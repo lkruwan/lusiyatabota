@@ -136,7 +136,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Amalser working!')
+            chalk.green.bold('✅ Lusifar working!')
         );
     });
     
@@ -261,8 +261,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtu.be/RlSG4ZgPls0*' +
+                                await conn.sendMessage(conn.user.jid, '*~කවිශ්ක සඳරුවන්~*' +
+                                    '\n*🌀 Subcribe this channel https://www.youtube.com/channel/UCXhSoLCX0DIpNYh_0ICiP0w*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
